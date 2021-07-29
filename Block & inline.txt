@@ -1,0 +1,46 @@
+Block -- Element starts at new line and consumes entire width of the screen as possible
+Inline -- Does not start on new line consumes only as much width as necessary
+Eg 
+--Block --div,p,ul,form
+--inline --span,abbr,a,buttom,input
+
+
+Head --defines info about document
+title --defines title for page used byt seo for optimization on search
+base --sets a url to all relative path
+meta -holds the information about the document
+
+
+CSS -Layout
+        --Header --Header for doc /section
+        --Section --section for doc
+        --Navigation -nav links
+        --Article --self contained independent content
+        --Footer --Footer for doc
+        --Details --additional details user can open /close
+        --aside --content aside from content
+        -summary --defines heading for details
+
+    Layout -Techniques
+        --Css Frameworks
+        --Css float property
+        --Css Flex box
+        --Css Grid
+
+    Resposine webpage
+        --Bootsrap
+        image width :100%
+        max-width:100%
+        vw --viewport width
+        meta as viewport
+    
+Computer-code 
+        --<code>--program code
+        --<kbd> --keybaord input
+        --<samp> --sample output
+        --<var> --variable code/maths
+        <pre> --pre formatted code
+Semantic
+        Element with meaning
+        Non-Semantic --div ,span 
+        Semantic -- form ,header ,Article

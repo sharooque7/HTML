@@ -1,0 +1,49 @@
+//Availabe infinit year months
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button type="button" onclick="clickcounter()">click</button>
+
+    <div id='result'></div>
+   
+    <script>
+         function clickcounter()
+    {
+       console.log('Hi')
+       if(typeof(Storage) !== "undefined")
+       {
+        if(localStorage.clickcount)
+        {
+            localStorage.clickcount = Number(localStorage.clickcount) + 1;
+        }
+        else
+        {
+            localStorage.clickcount = 1;
+        }
+        document.getElementById('result').innerHTML ='Clicked count '+ localStorage.clickcount;
+       }
+       else
+       {
+        document.getElementById('result').innerHTML = 'Not supported';
+       }
+    }
+        // localStorage.setItem('LastName','Smith')
+
+        // document.getElementById('result').innerHTML = localStorage.getItem('LastName')
+
+        // localStorage.LastName = 'Ozil';
+
+        // document.getElementById('result').innerHTML = localStorage.getItem('LastName')
+
+        // localStorage.removeItem('LastName')
+    </script>
+</body>
+</html>

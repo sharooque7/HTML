@@ -1,0 +1,6 @@
+Geolocation -- location //coords//longitude//latitue
+Drag/Drop -- 
+webStorage -- localstorage -- infinity storage sessiongstorage -- tab close till available
+Web workers -- JS runnung backgo=round without affecting page
+
+Server -sent -event -- page gets automatically updates from server stock price
